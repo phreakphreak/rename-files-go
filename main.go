@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Println("Uso: rename-files-go <extensión_actual> <nueva_extensión>")
+		fmt.Println("Uso: rename-files <extensión_actual> <nueva_extensión>")
 		os.Exit(1)
 	}
 
